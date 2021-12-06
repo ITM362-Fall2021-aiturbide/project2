@@ -120,9 +120,13 @@ nav ul li a:hover{
 }
 
 .slideshow{
-margin: 0 auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
 }
-.slideshow img{position:relative; animation:fling-minislide 20s infinite; opacity:0; width: 40%; height: auto;}
+.slideshow img{position:static; animation:fling-minislide 20s infinite; opacity:0; width: 40%; height: auto;}
 
 @keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
 .slideshow img:nth-child(4){animation-delay:0s;}
@@ -130,11 +134,11 @@ margin: 0 auto;
 .slideshow img:nth-child(2){animation-delay:10s;}
 .slideshow img:nth-child(1){animation-delay:15s;}
 
-.slide{
+/*.slide{
   object-fit: contain;
   width: 500px;
   height: 300px;
-}
+} */
 /*Signup Page*/
 
 #signup-body{
