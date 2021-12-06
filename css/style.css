@@ -144,10 +144,7 @@ nav ul li a:hover{
   height: 300px;
 }
 .slideshow{
-margin-top: 100px;
-margin-left: 450px;
-margin-right: 100px;
-text-align: center;
+margin: 0 auto;
 }
 .slideshow {width:5px; height:300px;}
 .slideshow img{position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 40%; height: auto;}
