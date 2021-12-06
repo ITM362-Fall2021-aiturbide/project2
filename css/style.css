@@ -122,7 +122,7 @@ nav ul li a:hover{
 .slideshow{
 margin: 0 auto;
 }
-.slideshow img{position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 40%; height: auto;}
+.slideshow img{position:relative; animation:fling-minislide 20s infinite; opacity:0; width: 40%; height: auto;}
 
 @keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
 .slideshow img:nth-child(4){animation-delay:0s;}
